@@ -1,3 +1,1 @@
-#!/bin/bash\n
-if [ -f "$1" ]; then\n  echo "File exists"\nelse\n  echo "File does not exist"\nfi
-
+echo '#!/bin/bash\n# Enhanced file check\nif [ -f "$1" ]; then\n  echo "File $1 exists"\nelse\n  echo "File $1 does not exist"\nfi' > filecheck.sh
