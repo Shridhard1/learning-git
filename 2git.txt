@@ -1,0 +1,89 @@
+shrid@sd MINGW64 ~/OneDrive/Documents/sdgit/git-operations-demo (rebase-branch)
+$ history
+    1  git remote add origin https://github.com/Shridhard1/Learning-Devops.git
+    2  git branch -M main
+    3  git push -u origin main
+    4  echo "# Learning-Devops" >> README.md
+    5  git init
+    6  git add README.md
+    7  git commit -m "first commit"
+    8  git branch -M main
+    9  git remote add origin https://github.com/Shridhard1/Learning-Devops.git
+   10  git push -u origin main
+   11  git config --global user.email "shridhar535@hotmail.com"
+   12  git config --global user.name "Shridhar"
+   13  git remote add origin https://github.com/Shridhard1/Learning-Devops.git
+   14  git push -u origin main
+   15  git branch -M main
+   16  git push -u origin main
+   17  git remote add origin https://github.com/Shridhard1/Learning-Devops.git
+   18  git branch -M main
+   19  git push -u origin main
+   20  git status
+   21  git commit -m "File_Creation_Task"
+   22  git push -u origin main]
+   23  git push -u origin main
+   24  ls
+   25  cd git-operations-demo/
+   26  ls
+   27  chmod +x *.sh
+   28  ls
+   29  clear
+   30  git init
+   31  git config --global user.name "Your Name"
+   32  git config --global user.email "your.email@example.com"
+   33  git status
+   34  git remote add origin https://github.com/your-username/git-operations-demo.git
+   35  git remote -v
+   36  git add .
+   37  git commit -m "Initial commit with shell scripts"
+   38  # Push to GitHub (main branch)
+   39  git push -u origin main
+   40  git remote add origin https://github.com/Shridhard1/learning-git.git
+   41  git push -u origin main
+   42  git remote set-url origin https://github.com/Shridhard1/learning-git.git
+   43  git remote -v
+   44  git status
+   45  git status
+   46  git add .
+   47  git commit -m "Initial commit with shell scripts"
+   48  git push -u origin main
+   49  git status
+   50  git add .
+   51  git commit -m "Initial commit with shell scripts"
+   52  git push -u origin main
+   53  git push -u origin master:main
+   54  git checkout -b feature-branch
+   55  git add hello.sh
+   56  git commit -m "Update hello.sh message"
+   57  git checkout main
+   58  git add hello.sh
+   59  git commit -m "Update hello.sh on main"
+   60  git merge feature-branch
+   61  git add hello.sh
+   62  git commit -m "Resolved merge conflict between main and feature-branch"
+   63  git checkout -b rebase-branch
+   64  git add counter.sh
+   65  git commit -m "Extend counter to 10"
+   66  git checkout main
+   67  git add filecheck.sh
+   68  git commit -m "Enhanced file check message"
+   69  git checkout rebase-branch
+   70  git rebase main
+   71  git add counter.sh
+   72  git rebase --continue
+   73  echo '#!/bin/bash\necho "Temporary changes"' > temp.sh
+   74  git stash
+   75  git stash list
+   76  echo '#!/bin/bash\necho "New file"' > new.sh
+   77  git add new.sh
+   78  git commit -m "Add new.sh"
+   79  git stash pop
+   80  git push origin main
+   81  git push origin feature-branch
+   82  git push origin rebase-branch
+   83  git help
+   84  history
+
+shrid@sd MINGW64 ~/OneDrive/Documents/sdgit/git-operations-demo (rebase-branch)
+$
