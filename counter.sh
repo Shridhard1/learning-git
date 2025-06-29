@@ -1,3 +1,1 @@
-#!/bin/bash\n
-for i in {1..5}; do\n  echo "Count: $i"\ndone
-
+echo '#!/bin/bash\nfor i in {1..10}; do\n  echo "New count: $i"\ndone' > counter.sh
