@@ -1,2 +1,1 @@
-#!/bin/bash\n
-echo "Hello World!"
+echo '#!/bin/bash\necho "Hello Git Operations!"' > hello.sh
